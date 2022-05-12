@@ -1,0 +1,4 @@
+Botão direito no diretório que eu quero criar o repositório e clicar em "Git Bash"
+
+1) git init = executar este comando no terminar do git
+
