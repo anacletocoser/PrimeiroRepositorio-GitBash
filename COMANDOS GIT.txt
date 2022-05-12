@@ -1,4 +1,25 @@
 Botão direito no diretório que eu quero criar o repositório e clicar em "Git Bash"
 
-1) git init = executar este comando no terminar do git
+1) >>git init      (executar este comando no terminal do git) 
 
+2) >>git status    (verifica quais arquivos já foram incluídos no controle de versão / Verifica as versões dos arquivos)
+
+3) >>git add "nomeCompletoDoArquivoASerIncluido.txt"   (adiciona um único arquivo específico ao controle de versão)
+
+4) >>git add .      (adiciona todos os arquivos pendentes no controle de versão
+
+5) >>git commit -m "primeiro commit"       
+(rodando este comando a primeira vez, ele pede para você configurar o git no seu computador)
+5.1) >>git config --global user.email "you@example.com"     (este é o e-mail da conta do github)
+5.2) >>git config --global user.name "Your Name"
+5.3) rodar o comando 5 novamente
+
+6) >>git push
+(rodando este comando a primeira vez, ele pede para definirmos para onde vamos enviar todas essas informações)
+(sendo assim, temos que criar um repositório no GitHub para enviarmos tais informações)
+6.1) >>git remote add origin https://github.com/anacletocoser/PrimeiroRepositorio-GitBash
+(com este comando ele vai saber para onde enviar as informações
+6.2) rodar o comando 6 novamente
+(ao executar o comando 'git push' novamente, ele pergunta para qual branch ele deve estar enviando)
+6.3) git push --set-upstream origin master
+(ao executar este comando pela primeira vez, é provável que ele vá pedir para conectar com o GitHub e fazer o login)
